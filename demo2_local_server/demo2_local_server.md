@@ -9,9 +9,9 @@ node index
 `index.js`文件全部内容如下
 
 ```js
-var http = require('http'); // http是node自带模块，无需安装
+const http = require('http'); // http是node自带模块，无需安装
 
-var serv = http.createServer(function (req, res) {
+const serv = http.createServer(function (req, res) {
   res.writeHead(200, { 'Content-Type': 'text/html' });
   res.end('<h1>Hello World!</h1>');
 });
