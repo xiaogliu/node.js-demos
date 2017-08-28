@@ -11,3 +11,7 @@ fs.readdir('_dirname', function (err, files) {
 ```
 
 其中，`err`是错误对象，如果没有错误则为`null`，`files`是所在目下下文件组成的数组。
+
+
+- `process`全局对象包含三个流对象，分别对应UNIX标准流：
+`stdin`, `stdout`, `stderr`.
